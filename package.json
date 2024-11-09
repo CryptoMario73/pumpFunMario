@@ -1,0 +1,24 @@
+{
+  "name": "pump_fun_game",
+  "version": "1.0.0",
+  "description": "Pump Fun Project",
+  "main": "drmario.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development"
+  },
+  "keywords": [
+    "pump_fun"
+  ],
+  "author": "KEM",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
